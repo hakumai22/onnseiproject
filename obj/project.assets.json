@@ -155,6 +155,9 @@
           }
         }
       },
+      "Python.Runtime/2.7.9": {
+        "type": "package"
+      },
       "pythonnet/3.0.4": {
         "type": "package",
         "dependencies": {
@@ -576,6 +579,18 @@
         "naudio-icon.png",
         "naudio.winmm.2.2.1.nupkg.sha512",
         "naudio.winmm.nuspec"
+      ]
+    },
+    "Python.Runtime/2.7.9": {
+      "sha512": "NBS5t9KJvBVDoAFsVOQ79Ri133Hir8O6sqcEZJufXLVvlReXvzyZKhkcO5fpWcqjj6798qrWd/tO/TXCx2Ga7g==",
+      "type": "package",
+      "path": "python.runtime/2.7.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "python.exe",
+        "python.runtime.2.7.9.nupkg.sha512",
+        "python.runtime.nuspec"
       ]
     },
     "pythonnet/3.0.4": {
@@ -1226,6 +1241,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "NAudio >= 2.2.1",
+      "Python.Runtime >= 2.7.9",
       "pythonnet >= 3.0.4"
     ]
   },
@@ -1276,6 +1292,10 @@
           "NAudio": {
             "target": "Package",
             "version": "[2.2.1, )"
+          },
+          "Python.Runtime": {
+            "target": "Package",
+            "version": "[2.7.9, )"
           },
           "pythonnet": {
             "target": "Package",

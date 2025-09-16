@@ -21,3 +21,4 @@
 /Users/hakumai/Documents/develop/csharp/onnseiproject/bin/Debug/net8.0/NAudio.Midi.dll
 /Users/hakumai/Documents/develop/csharp/onnseiproject/bin/Debug/net8.0/NAudio.Wasapi.dll
 /Users/hakumai/Documents/develop/csharp/onnseiproject/bin/Debug/net8.0/NAudio.WinMM.dll
+/Users/hakumai/Documents/develop/csharp/onnseiproject/obj/Debug/net8.0/onnseiproject.sourcelink.json
