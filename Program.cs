@@ -43,7 +43,7 @@ namespace onnseiproject
         }
         static void Main(string[] args)
         {
-            Runtime.PythonDLL = "/Library/Frameworks/Python.framework/Versions/3.12/lib/libpython3.12.dylib";
+            Runtime.PythonDLL = "/Library/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib";
             PythonEngine.Initialize();
             using (Py.GIL())
             {
