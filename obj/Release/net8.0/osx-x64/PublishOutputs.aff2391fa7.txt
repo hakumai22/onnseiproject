@@ -1,0 +1,2 @@
+/workspaces/onnseiproject/bin/Release/net8.0/osx-x64/publish/onnseiproject.pdb
+/workspaces/onnseiproject/bin/Release/net8.0/osx-x64/publish/onnseiproject

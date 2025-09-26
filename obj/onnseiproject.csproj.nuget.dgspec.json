@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hakumai/Documents/develop/csharp/onnseiproject/onnseiproject.csproj": {}
+    "/workspaces/onnseiproject/onnseiproject.csproj": {}
   },
   "projects": {
-    "/Users/hakumai/Documents/develop/csharp/onnseiproject/onnseiproject.csproj": {
+    "/workspaces/onnseiproject/onnseiproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hakumai/Documents/develop/csharp/onnseiproject/onnseiproject.csproj",
+        "projectUniqueName": "/workspaces/onnseiproject/onnseiproject.csproj",
         "projectName": "onnseiproject",
-        "projectPath": "/Users/hakumai/Documents/develop/csharp/onnseiproject/onnseiproject.csproj",
-        "packagesPath": "/Users/hakumai/.nuget/packages/",
-        "outputPath": "/Users/hakumai/Documents/develop/csharp/onnseiproject/obj/",
+        "projectPath": "/workspaces/onnseiproject/onnseiproject.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/onnseiproject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hakumai/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,13 +37,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.18, )",
+              "autoReferenced": true
+            },
             "NAudio": {
               "target": "Package",
               "version": "[2.2.1, )"
@@ -67,16 +71,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -84,7 +80,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-x64": {
+          "#import": []
         }
       }
     }
