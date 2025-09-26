@@ -25,7 +25,7 @@ namespace onnseiproject
                 if (core_instance == null)
                 {
                     core_instance = voicevox_core.VoicevoxCore(
-                        open_jtalk_dict_dir: "/Users/hakumai/Documents/develop/csharp/onnseiproject/open_jtalk_dic_utf_8-1.11",
+                        open_jtalk_dict_dir: "/Users/M2Seito051/Downloads/onnseiproject-main/open_jtalk_dic_utf_8-1.11",
                         acceleration_mode: "AUTO"
                     );
                 }
